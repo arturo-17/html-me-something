@@ -1,0 +1,78 @@
+body { 
+    background-color: #fff;
+}
+
+
+#main-journey {
+    text-align: -webkit-center;
+    margin: 30px;
+    padding-bottom: 40px;
+    font-family: inherit;
+    font-size: 55px;
+}
+
+.container-fluid {
+    text-align: -webkit-center;
+    margin: 35px;
+}
+
+li.list-journey {
+    list-style: none;
+    font-size: 18px;
+    color: cornflowerblue;
+    font-weight: 100;
+}
+
+
+li.list-journey:hover {
+    list-style: none;
+    font-size: 22px;
+    color: #ed7164;
+    font-weight: 100;
+}
+
+.row {
+    margin: 35px;
+}
+
+p.img__description {
+    font-size: 18px;
+    padding: 26px;
+}
+
+<!-- begin snippet: js hide: false console: true babel: false -->
+
+<!-- language: lang-css -->
+
+
+
+    /* relevant styles */
+    .img__wrap {
+      position: relative;
+      height: 200px;
+      width: 257px;
+    }
+
+    .img__description {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(29, 106, 154, 0.72);
+      color: #fff;
+      visibility: hidden;
+      opacity: 0;
+      width: 295px;
+      margin-left: 44px;
+      margin-bottom: 0px;
+      /* transition effect. not necessary */
+      transition: opacity .2s, visibility .2s;
+    }
+
+
+
+    .img__wrap:hover .img__description {
+      visibility: visible;
+      opacity: 1;
+    }

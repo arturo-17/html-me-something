@@ -1,0 +1,33 @@
+body { 
+    background-color: #ffebcd;
+background-image: url("https://www.transparenttextures.com/patterns/gplay.png")
+}
+
+
+#main-journey {
+    text-align: -webkit-center;
+    margin: 30px;
+    padding-bottom: 40px;
+    font-family: cursive;
+    font-size: 55px;
+}
+
+.container-fluid {
+    text-align: -webkit-center;
+    margin: 35px;
+}
+
+li.list-journey {
+    list-style: none;
+    font-size: 18px;
+    color: cornflowerblue;
+    font-weight: 100;
+}
+
+
+li.list-journey:hover {
+    list-style: none;
+    font-size: 22px;
+    color: #ed7164;
+    font-weight: 100;
+}
